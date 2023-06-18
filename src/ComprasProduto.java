@@ -19,4 +19,13 @@ public class ComprasProduto {
     public String getDescricaoProduto() {
         return descricaoProduto;
     }
+
+    @Override
+    public String toString() {
+        return "ComprasProduto{" +
+                "valorProduto=" + valorProduto +
+                ", QuantidadePedidos=" + QuantidadePedidos +
+                ", descricaoProduto='" + descricaoProduto + '\'' +
+                '}';
+    }
 }
